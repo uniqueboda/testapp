@@ -1,0 +1,19 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniqueboda/testapp.git"
+  },
+  "author": "Odongo Nobert Louis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniqueboda/testapp/issues"
+  },
+  "homepage": "https://github.com/uniqueboda/testapp#readme"
+}
