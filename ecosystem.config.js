@@ -1,13 +1,15 @@
 module.exports = {
-  apps : [{
-    name              : 'testApp',
-    script            : 'testapp.js',
-    instances         : 2,
-    autorestart       : true,
-    watch             : true,
-    max_memory_restart: '0.5G',
-    env_production    : {
-      NODE_ENV: 'production'
+  apps : [
+    {
+      name              : 'testApp',
+      script            : 'testapp.js',
+      instances         : 2,
+      autorestart       : true,
+      watch             : true,
+      max_memory_restart: '0.5G',
+      env_production    : {
+        NODE_ENV: 'production'
+      }
     },
     {
       name              : 'unique.boda.vehicle',
@@ -19,7 +21,8 @@ module.exports = {
       env_production    : {
         NODE_ENV: 'production'
       }
-  }],
+    }
+  ],
 
   deploy : {
     production : {
